@@ -1,0 +1,22 @@
+$transit: ease-in-out 0.3s;
+$worksize: 900px;
+
+
+
+%centerG{
+  display: flex;
+  justify-content: center;
+}
+%centerV{
+  display: flex;
+  justify-content: center;
+}
+%centerFull{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+%full{
+  height: 100%;
+  width: 100%;
+}
