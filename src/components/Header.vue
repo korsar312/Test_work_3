@@ -43,7 +43,7 @@
 
                 button{
                     font-size: 11pt;
-                    width: 150px;
+                    width: 100px;
                     min-height: 30px;
                     border-radius: 10px;
                 }
