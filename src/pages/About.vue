@@ -10,7 +10,7 @@
                 <div v-for="i in renderProperty()" :key="i" class="centerG propWrapper">
                     <span class="propL">{{i[0]}}:</span>
                     <span class="propC"></span>
-                    <span v-on:click="editProp(i)"  class="propR">{{i[1]}}</span><span v-on:click="removeProp(i[0],i[1])" class="del">удалить</span>
+                    <span v-on:click="editProp(i)"  class="propR edit">{{i[1]}}</span><span v-on:click="removeProp(i[0],i[1])" class="del">удалить</span>
                 </div>
                 <div class="centerG propWrapper">
                     <span class="propL">id:</span>
@@ -115,6 +115,10 @@
     .none{
         font-size: 15pt;
         margin: 10px;
+    }
+    .edit{
+        cursor: pointer;
+        color: blue;
     }
     span{
         margin: 5px 0;

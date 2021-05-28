@@ -42,8 +42,9 @@
                 @extend %centerFull;
 
                 button{
+                    font-size: 11pt;
                     width: 150px;
-                    height: 30px;
+                    min-height: 30px;
                     border-radius: 10px;
                 }
             }
